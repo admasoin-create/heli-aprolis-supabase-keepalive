@@ -22,5 +22,5 @@ jobs:
             --retry 2 \
             --max-time 30 \
             -H "apikey: $SUPABASE_KEY" \
-            "$SUPABASE_URL/rest/v1/heli_stores?select=store_code&limit=1"
+            "$SUPABASE_URL/rest/v1/heli_stores?select=*&limit=1"
 
